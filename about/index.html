@@ -1,5 +1,6 @@
 
- <!DOCTYPE HTML>
+  
+    <!DOCTYPE HTML>
 <html lang="zh-cn">
 <head>
   <meta charset="UTF-8">
@@ -7,7 +8,7 @@
   <meta name="360-site-verification" content="67fbcc5a67f4c65c057315b28fa0b2c8" />
 <meta name="google-site-verification" content="2GzxQ0VtXwTSUdmGm6DzcmhTzM_I9QmzCb_pzpMzD88" />
   
-    <title>tags | 小涛编程|博客</title>
+    <title>about | 小涛编程|博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="wangtao">
@@ -38,9 +39,9 @@
      
 </head>
 
-    <body>
-      <header>
-        <div>
+      <body>
+        <header>
+          <div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.svg" alt="小涛编程|博客" title="小涛编程|博客"/></a>
@@ -73,23 +74,53 @@
                             </nav>			
 </div>
 
-      </header>
-      <div id="container">
-          
-<div class="archive-title" >
-<h2 class="tag-icon">Tags</h2>
+        </header>
+        <div id="container">
+          <div id="main" class="page" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/about/index.html" title="about" itemprop="url">about</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://taosilly.github.com" title="wangtao">wangtao</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2016-11-03T05:27:46.000Z" itemprop="datePublished">2016-11-03</time>
+    Updated:<time datetime="2016-11-03T05:27:46.840Z" itemprop="dateModified">2016-11-03</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		  
+	</div>
+		<footer class="article-footer clearfix">
 
-<a data-src="/tags/readme/" href="#readme" title="readme">readme<sup>1</sup></a>
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://taosilly.github.com/about/index.html" data-title="about | 小涛编程|博客" data-tsina="null" class="share clearfix">
+  </div>
 
 </div>
-<div id="main" class="archive-part">
-<div class="all-list-box"></div>
-</div>
+</footer>   	       
+	</article>
+	
+	
+<section class="comment">
+	
+	<div class="ds-thread"></div>
+	
+</section>
 
 
-
-
-         %>
+</div>  
       </div>
       <footer><div id="footer" >
     
@@ -100,7 +131,7 @@
             && Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> && Theme by <a href="http://gengbiao.me" target="_blank" title="coney">coney</a>
             </div>
 </footer>
-      <script src="/js/jquery-2.1.0.min.js"></script>
+        <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   $('.navbar').click(function(){
@@ -147,26 +178,48 @@ $(document).ready(function(){
 </script>
 
 
-
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
 
 
 <script type="text/javascript">
-$(document).ready(function(){ 
-  var list    = $('.archive-title a'),
-      box     = $('.all-list-box'),
-      first   = $('.archive-title a:first-of-type');
-      box.load(first.attr('data-src').toString()+' #archive-page');
-      first.addClass('current');
-  list.each(function(){
-    $(this).click(function(){
-      var listSrc=$(this).attr('data-src').toString()+' #archive-page';
-      box.load(listSrc);
-      list.removeClass('current');
-      $(this).addClass('current');
-     });  
-    });
-  }); 
-</script>
+  var duoshuoQuery = {short_name:"null"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
 
 
 
@@ -252,6 +305,7 @@ ga('send', 'pageview');
 </script>
 
 
-    </body>
-   </html>
+      </body>
+     </html>
+     
 
