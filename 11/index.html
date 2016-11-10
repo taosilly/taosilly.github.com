@@ -45,13 +45,13 @@ body{background:url(img/1a0.jpg) left top no-repeat #030202;font:12px/180% Arial
 
 <ul id="lxf-box">
 	<li><a href="http://taosilly.me/" target="_blank" rel="external"><img src="img_11/fax.png"></a></li>
-	<li><a href="http://taosilly.me/" target="_blank" rel="external"><img src="img_11/add1.jpg" width="280" height="365"><img src="img/shangbiao.jpg"><strong>潮流军事风</strong><span>军旅风袭席卷军旅风袭席卷</span></a></li>
+	<li><a href="http://taosilly.me/" target="_blank" rel="external"><img src="img_11/add1.jpg" width="280" height="365"><img src="img_11/shangbiao.jpg"><strong>潮流军事风</strong><span>军旅风袭席卷军旅风袭席卷</span></a></li>
 	
 </ul>
 
 <script type="text/javascript">
 var margin = 10;//这里设置间距
-var li= document.getElementByName('li');//这里是区块名称
+var li= document.getElementByTagName('li');//这里是区块名称
 var	li_W = li[0].offsetWidth+margin;//取区块的实际宽度（包含间距，这里使用源生的offsetWidth函数，不适用jQuery的width()函数是因为它不能取得实际宽度，例如元素内有pandding就不行了）
 function liuxiaofan(){//定义成函数便于调用
 	var h=[];//记录区块高度的数组
