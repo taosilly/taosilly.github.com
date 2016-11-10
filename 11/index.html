@@ -51,9 +51,20 @@ body{background:url(img_11/1a0.jpg) left top no-repeat #030202;font:12px/180% Ar
 	
 </ul>
 
+
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
 <script type="text/javascript">
+/*
+原理：1.把所有的li的高度值放到数组里面
+     2.第一行的top都为0
+	 3.计算高度值最小的值是哪个li
+	 4.把接下来的li放到那个li的下面
+作者：刘晓帆
+博客地址：[url]http://liuxiaofan.com[/url]
+编写时间：2012年6月9日
+*/
 var margin = 10;//这里设置间距
-var li= document.getElementByTagName('li');//这里是区块名称
+var li=$("li");//这里是区块名称
 var	li_W = li[0].offsetWidth+margin;//取区块的实际宽度（包含间距，这里使用源生的offsetWidth函数，不适用jQuery的width()函数是因为它不能取得实际宽度，例如元素内有pandding就不行了）
 function liuxiaofan(){//定义成函数便于调用
 	var h=[];//记录区块高度的数组
@@ -85,5 +96,8 @@ window.onresize = function() {liuxiaofan();};
 
 </body>
 </html>
+
+
+
   
 
