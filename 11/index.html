@@ -89,7 +89,8 @@ $(function(){
 
 /* 使用for in运算返回数组中某一值的对应项数(比如算出最小的高度值是数组里面的第几个) */
 function getarraykey(s, v) {for(k in s) {if(s[k] == v) {return k;}}}
-
+/*浏览器窗口改变时也运行函数*/
+window.onresize = function() {liuxiaofan();};
 </script>
 
 </body>
