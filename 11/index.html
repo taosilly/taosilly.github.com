@@ -66,6 +66,11 @@ $(function(){
 	var n = 4//窗口的宽度除以区块宽度就是一行能放几个区块
 	for(var i = 0;i < li.length;i++) {//有多少个li就循环多少次
 		li_H = li[i].offsetHeight;//获取每个li的高度
+		
+		console.log(i);
+		console.log(i * li_W);
+		console.log('----------------');
+		
 		if(i < n) {//n是一行最多的li，所以小于n就是第一行了
 			h[i]=li_H;//把每个li放到数组里面
 			li.eq(i).css("top",0);//第一行的Li的top值为0
