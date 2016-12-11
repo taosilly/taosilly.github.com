@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="人工智能,机器学习," />
+  <meta name="keywords" content="git," />
 
 
 
@@ -86,21 +86,22 @@
 
 
 
-<meta name="description" content="上半年的alphago围棋大战李世石，以4:1的比分大胜李世石——新浪科技-AlphaGo最终局战胜李世石 人机大战总比分1:4，这也让人工智能再一次的吸引了全世界人的目观，其中的一些词汇也是火了一把，人工智能（Artificial intelligence），深度学习（Deep learning）以及DeepMind。这里稍微解释以上几个词汇。
-人工智能：人工智能格式计算机科学的一个分支，它研究">
+<meta name="description" content="首先学习Git是非常实在的，不管你做什么技术什么语言什么方向的开发，还是为只沉淀自己，Git对你都是非常用的。
+下面是一份Git的常用命令，可作为Git总结，查询手册，若是初学，还是要去看一些文档、技术大神写的文章。
+一般来说，我们使用到的就下面6个命令。 但是熟练使用，要慢慢去记住近100个命令。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="机器学习概论">
-<meta property="og:url" content="http://www.taosilly.me/blog/2016/11/machine_study_outline/index.html">
+<meta property="og:title" content="Git命令快速学习">
+<meta property="og:url" content="http://www.taosilly.me/post/git-quick/index.html">
 <meta property="og:site_name" content="taosilly's Blog">
-<meta property="og:description" content="上半年的alphago围棋大战李世石，以4:1的比分大胜李世石——新浪科技-AlphaGo最终局战胜李世石 人机大战总比分1:4，这也让人工智能再一次的吸引了全世界人的目观，其中的一些词汇也是火了一把，人工智能（Artificial intelligence），深度学习（Deep learning）以及DeepMind。这里稍微解释以上几个词汇。
-人工智能：人工智能格式计算机科学的一个分支，它研究">
-<meta property="og:image" content="http://www.taosilly.me/images/201611102016.jpg">
-<meta property="og:updated_time" content="2016-12-06T02:16:20.919Z">
+<meta property="og:description" content="首先学习Git是非常实在的，不管你做什么技术什么语言什么方向的开发，还是为只沉淀自己，Git对你都是非常用的。
+下面是一份Git的常用命令，可作为Git总结，查询手册，若是初学，还是要去看一些文档、技术大神写的文章。
+一般来说，我们使用到的就下面6个命令。 但是熟练使用，要慢慢去记住近100个命令。">
+<meta property="og:updated_time" content="2016-12-06T03:15:26.252Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="机器学习概论">
-<meta name="twitter:description" content="上半年的alphago围棋大战李世石，以4:1的比分大胜李世石——新浪科技-AlphaGo最终局战胜李世石 人机大战总比分1:4，这也让人工智能再一次的吸引了全世界人的目观，其中的一些词汇也是火了一把，人工智能（Artificial intelligence），深度学习（Deep learning）以及DeepMind。这里稍微解释以上几个词汇。
-人工智能：人工智能格式计算机科学的一个分支，它研究">
-<meta name="twitter:image" content="http://www.taosilly.me/images/201611102016.jpg">
+<meta name="twitter:title" content="Git命令快速学习">
+<meta name="twitter:description" content="首先学习Git是非常实在的，不管你做什么技术什么语言什么方向的开发，还是为只沉淀自己，Git对你都是非常用的。
+下面是一份Git的常用命令，可作为Git总结，查询手册，若是初学，还是要去看一些文档、技术大神写的文章。
+一般来说，我们使用到的就下面6个命令。 但是熟练使用，要慢慢去记住近100个命令。">
 
 
 
@@ -128,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="http://www.taosilly.me/blog/2016/11/machine_study_outline/"/>
+  <link rel="canonical" href="http://www.taosilly.me/post/git-quick/"/>
 
 
 
 
 
-  <title> 机器学习概论 | taosilly's Blog </title>
+  <title> Git命令快速学习 | taosilly's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -313,7 +314,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://www.taosilly.me/blog/2016/11/machine_study_outline/">
+  <link itemprop="mainEntityOfPage" href="http://www.taosilly.me/post/git-quick/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="taosilly">
@@ -337,7 +338,7 @@
             
             
               
-                机器学习概论
+                Git命令快速学习
               
             
           </h1>
@@ -350,8 +351,8 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-10T19:53:01+08:00">
-                2016-11-10
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-06T10:12:36+08:00">
+                2016-12-06
               </time>
             
 
@@ -364,7 +365,7 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               <span class="post-meta-item-text">更新于</span>
-              <time title="更新于" itemprop="dateModified" datetime="2016-12-06T10:16:20+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2016-12-06T11:15:26+08:00">
                 2016-12-06
               </time>
             
@@ -379,8 +380,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/人工智能/" itemprop="url" rel="index">
-                    <span itemprop="name">人工智能</span>
+                  <a href="/categories/git/" itemprop="url" rel="index">
+                    <span itemprop="name">git</span>
                   </a>
                 </span>
 
@@ -394,8 +395,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/blog/2016/11/machine_study_outline/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="blog/2016/11/machine_study_outline/" itemprop="commentCount"></span>
+                <a href="/post/git-quick/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="post/git-quick/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -405,7 +406,7 @@
 
           
           
-             <span id="/blog/2016/11/machine_study_outline/" class="leancloud_visitors" data-flag-title="机器学习概论">
+             <span id="/post/git-quick/" class="leancloud_visitors" data-flag-title="Git命令快速学习">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -435,24 +436,9 @@
       
 
       
-        <p>上半年的alphago围棋大战李世石，以4:1的比分大胜李世石——<a href="http://tech.sina.com.cn/it/2016-03-15/doc-ifxqhmvc2486669.shtml" target="_blank" rel="external">新浪科技-AlphaGo最终局战胜李世石 人机大战总比分1:4</a>，这也让人工智能再一次的吸引了全世界人的目观，其中的一些词汇也是火了一把，人工智能（Artificial intelligence），深度学习（Deep learning）以及DeepMind。这里稍微解释以上几个词汇。</p>
-<h2 id="人工智能："><a href="#人工智能：" class="headerlink" title="人工智能："></a>人工智能：</h2><p>人工智能格式计算机科学的一个分支，它研究的是计算机模拟人的意识，思维方式来处理问题。就是说计算机能像人一样思考。</p>
-<h2 id="深度学习："><a href="#深度学习：" class="headerlink" title="深度学习："></a>深度学习：</h2><p>深度学习是只是机器学习的一类方法，机器学习是人工智能的一个分支，主要是实现人工智能的一些方法，可以说是方法论。</p>
-<h2 id="DeepMind："><a href="#DeepMind：" class="headerlink" title="DeepMind："></a>DeepMind：</h2><p>DeepMind只是一个组织，主要研究方向也就是深度学习相关内容。现在被Google收购</p>
-<h2 id="机器学习概论"><a href="#机器学习概论" class="headerlink" title="机器学习概论"></a>机器学习概论</h2><p>深度学习是一种特殊的机器学习（machine learning）方法，为了更好的理解深度学习，首先要对机器学习的主要内容有一个大致的了解。接下来的一些章节是机器学习的一些重要的方法。这样对于新手读者或者那些想要对机器学习有一个更加广阔了解的人来说基本都能全面覆盖。如果你对机器学习的基本方法比较了解可以略过这些内容。</p>
-<p>我们先定义学习算法到底是什么，提出以下的例子：线性回归算法（Linear regression algorithm）。然后，我们会继续描述如何拟合训练数据发现其模式，把该模式推广到新的数据中。这其实就是学习的基本定义，能从训练数据中学到“知识”，然后把该“知识”应用到新的数据中。大部分机器学习算法需要学习的其实是模型的参数。为了得到该学习的模型一般是最小化一个代价函数，该函数需要求解的未知数就是模型的参数，而该模型的已知变量就是训练数据集。机器学习的本质是应用统计学习，统计训练数据的模型得到一系列的规律。</p>
-<p>大部分的机器学习方法可划分成以下两种：监督学习（supervised learning）和无监督学习(unsupervised learning)。对于这两种分类，我也会给出一些学习算法的实例。大部分的机器学习（深度学习）问题都是通过随机梯度下降的方法解决的，随机梯度下降是一种优化算法，简单来说就是求解代价函数的方法。所以把机器学习可以看成是以下的几个组成：一个代价函数，一个模型，一个数据集和一种求解的算法。</p>
-<h2 id="学习算法"><a href="#学习算法" class="headerlink" title="学习算法"></a>学习算法</h2><p>一个机器学习算法其实就是能从数据中学到“知识”的一种方法。但是如何定义学习呢？Mitchell 1997年给了一个定义：一个计算机程序通过经验E完成了一个任务T，评价它的性能的办法是P。所以这章的内容将会从机器学习的任务T，评价方法P和经验E来展开。</p>
-<h2 id="机器学习任务"><a href="#机器学习任务" class="headerlink" title="机器学习任务"></a>机器学习任务</h2><p>机器学习可以解决一些人类能够解决的任务，如果是提供一些训练数据和一个任务，机器学习能做的效果也是接近于人类的。一般的，机器学习要做的事情是对于一个样本该如何处理。这个样本可以用特征来表示，也就是说一个样本可以通过一个n维的向量来表示，$x \in R^n$。比如一幅图像可以用像素值来表示。</p>
-<p>许多任务都能通过机器学习来解决，包括以下的任务：</p>
-<h3 id="分类（classification）"><a href="#分类（classification）" class="headerlink" title="分类（classification）"></a>分类（classification）</h3><p>在这个任务中，计算机程序需要讲一个样本分在K个类中的一个。K是指所有的类别的个数。为了解决这个问题需要得打这样一个函数$f: R^n \rightarrow {1,…,K}$，该函数$y=f(x)$可以表示从样本x到类别标签y的映射。这样的一个函数就能解决我们需要的分类任务。一般的，函数f的输出是一个概率分布，它是指样本x属于每一个类别的概率，概率最高的那个即是x的类标。一个分类的例子就是物体识别（Object Recognitions），即给定一张图像，判断这张图像属于什么物体。</p>
-<img src="/images/201611102016.jpg" class="[class names]" title="[360] [360] [title text [alt text]]">
-<p>现在解决物体识别任务基本最好的方法都是深度学习（<a href="http://www.cs.toronto.edu/~kriz/" target="_blank" rel="external">Krizhevsky et al 2012</a>）</p>
-<h3 id="回归任务（Regression）"><a href="#回归任务（Regression）" class="headerlink" title="回归任务（Regression）"></a>回归任务（Regression）</h3><p>在这个任务中，计算机程序需要的是在给定一个输入时，输出一个数值。解决该任务需要得到的函数是 $f:R^n \rightarrow R$，该任务与分类任务很像但不同的地方是输出是一个数值（连续的）而不是一个类标（离散的）。例如我们要预测从某地到另一地所需要的时间，输入的可能是两个地点或者一连串地点的坐标信息，需要输出的是花费的时间time。再比如本文开始alphago下围棋问题，计算机程序要做的是在当前状态下判断最佳的下棋位置，即计算每一个空位的得分。</p>
-<h3 id="机器翻译（Machine-Translation）"><a href="#机器翻译（Machine-Translation）" class="headerlink" title="机器翻译（Machine Translation）"></a>机器翻译（Machine Translation）</h3><p>在机器翻译的任务中，给定某种语言的一个文字序列，需要翻译成给定语言，即得到另一个文字序列。比如中文翻译成英文，现在常用到的一些应用包括Google翻译，百度翻译都是机器学习的成果。现在机器翻译大都是基于深度学习的一些方法。</p>
-<p>其实还包括许多的机器学习任务，比如推荐系统，结构输出，聚类，目标检测等。还可以通过应用分成三大类，一个是对于图像的处理，还有一个是对于文本处理和语音。对于图像比如给图像着色，找出图像中的人脸，找出背景图，识别图片中的物体，描述一幅图像等。对于文本处理比如机器翻译，文本分类，文本的情感分析，文本总结，阅读理解等。语音可以是语音识别，生成语音等。能想到的很多任务都是机器学习的常见任务，大概机器学习的终极目标就是解决人类能解决的所有问题吧。</p>
-<h2 id="性能方法"><a href="#性能方法" class="headerlink" title="性能方法"></a>性能方法</h2><p>为了评价一个机器学习算法的能力好坏，需要设计一个性能的评价方法P，不同的机器学习任务一般有不同的评价方法。对于一个分类任务，评价办法就是对于给定一个测试集合，分类之后计算其分类的正确率（Accuracy），即算法分类得到正确结果的比例，也可以用错误率来评价。正确率越高（错误率越低）则该算法的性能越好，否则越差。而对于一个回归问题，可以计算预测结果与正确结果的误差来评价。总误差越小说明算法的性能越好。对于一些其他的机器学习的评价也可以通过误差来计算。有了评价方法就可以判断机器学习算法的性能，人们根据这个来挑战更加好的机器学习算法。</p>
-<p>文／不厌其烦的董小姐（简书作者）<br>原文链接：<a href="http://www.jianshu.com/p/22998509f00c" target="_blank" rel="external">http://www.jianshu.com/p/22998509f00c</a><br>著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。</p>
+        <p>首先学习Git是非常实在的，不管你做什么技术什么语言什么方向的开发，还是为只沉淀自己，Git对你都是非常用的。</p>
+<p>下面是一份Git的常用命令，可作为Git总结，查询手册，若是初学，还是要去看一些文档、技术大神写的文章。</p>
+<p>一般来说，我们使用到的就下面6个命令。 但是熟练使用，要慢慢去记住近100个命令。</p>
 
       
     </div>
@@ -497,9 +483,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/人工智能/" rel="tag"># 人工智能</a>
-          
-            <a href="/tags/机器学习/" rel="tag"># 机器学习</a>
+            <a href="/tags/git/" rel="tag"># git</a>
           
         </div>
       
@@ -508,8 +492,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2016/10/readme/" rel="next" title="readme">
-                <i class="fa fa-chevron-left"></i> readme
+              <a href="/post/study-station/" rel="next" title="互联网学习的10个高质量网站">
+                <i class="fa fa-chevron-left"></i> 互联网学习的10个高质量网站
               </a>
             
           </div>
@@ -518,8 +502,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/blog/2016/11/study-station/" rel="prev" title="互联网学习的10个高质量网站">
-                互联网学习的10个高质量网站 <i class="fa fa-chevron-right"></i>
+              <a href="/post/know-taobao-operation/" rel="prev" title="认识淘宝运营">
+                认识淘宝运营 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -552,8 +536,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="blog/2016/11/machine_study_outline/"
-           data-title="机器学习概论" data-url="http://www.taosilly.me/blog/2016/11/machine_study_outline/">
+      <div class="ds-thread" data-thread-key="post/git-quick/"
+           data-title="Git命令快速学习" data-url="http://www.taosilly.me/post/git-quick/">
       </div>
     
   </div>
@@ -577,17 +561,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -694,22 +669,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#人工智能："><span class="nav-number">1.</span> <span class="nav-text">人工智能：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#深度学习："><span class="nav-number">2.</span> <span class="nav-text">深度学习：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DeepMind："><span class="nav-number">3.</span> <span class="nav-text">DeepMind：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#机器学习概论"><span class="nav-number">4.</span> <span class="nav-text">机器学习概论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#学习算法"><span class="nav-number">5.</span> <span class="nav-text">学习算法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#机器学习任务"><span class="nav-number">6.</span> <span class="nav-text">机器学习任务</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分类（classification）"><span class="nav-number">6.1.</span> <span class="nav-text">分类（classification）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#回归任务（Regression）"><span class="nav-number">6.2.</span> <span class="nav-text">回归任务（Regression）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#机器翻译（Machine-Translation）"><span class="nav-number">6.3.</span> <span class="nav-text">机器翻译（Machine Translation）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#性能方法"><span class="nav-number">7.</span> <span class="nav-text">性能方法</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
     </div>
