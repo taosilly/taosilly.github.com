@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.taosilly.me/"/>
-  <updated>2016-12-10T05:13:50.686Z</updated>
+  <updated>2016-12-10T05:52:41.023Z</updated>
   <id>http://www.taosilly.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.taosilly.me/post/know-taobao-operation/"/>
     <id>http://www.taosilly.me/post/know-taobao-operation/</id>
     <published>2016-12-10T05:11:19.000Z</published>
-    <updated>2016-12-10T05:13:50.686Z</updated>
+    <updated>2016-12-10T05:52:41.023Z</updated>
     
     <content type="html"><![CDATA[<p>我的一个朋友是做淘宝的，所以我很早以前就知道了有这个东西。 慢慢的自己在这行中接触的越来越多了，老听别人在说，流量、转化率、推广、装修、美工、评分、信誉、权重、服务等这些，好像还挻牛逼的。在我认识中，这块的东西不多，也不难，更好学，实战和经验是自然而成的事情，当然成为高手就需要好多时间和精力的投入了。</p>
 <p>系统化学习，规范认识过程，站的一个高度。首先解决几个问题：</p>
@@ -156,6 +156,58 @@
       <category term="思想" scheme="http://www.taosilly.me/tags/%E6%80%9D%E6%83%B3/"/>
     
       <category term="学习" scheme="http://www.taosilly.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node.js_skill_stack</title>
+    <link href="http://www.taosilly.me/post/nodejs-skill-stack/"/>
+    <id>http://www.taosilly.me/post/nodejs-skill-stack/</id>
+    <published>2016-11-12T09:18:08.000Z</published>
+    <updated>2016-12-12T09:21:26.017Z</updated>
+    
+    <content type="html"><![CDATA[<p>下列列举一下我的技术栈，大体上符合我的路线，具体技术上有会的，也有不会。 列一下这个，主要是想，大家在学习的时候要有一个路线，清楚自己要学什么技术，什么是有用的。</p>
+<p>大概列了一下，有些是不需要学的，以后再每个技术点去一点点更新。</p>
+<h2 id="Web基础"><a href="#Web基础" class="headerlink" title="Web基础"></a>Web基础</h2><p>web学习第一步，入门第一站，不管学习Node.js 还是其他语言，做网站这个是必学的，也是我们主要精力的投入点。</p>
+<p>H5、CSS3、JS：基本标签认识，CSS属性熟悉并熟练使用，常见前端效果。</p>
+<p>前端框架：Jquery, Bootstrap, Zepto.js, Vue.js, Angular.js, React.js.</p>
+<p>自动化与构建: Git/SVN, NPM/Bower, Gulp.</p>
+<p>Web深入: 面向组件, 面向模块，HTTP协议.</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1996846-940486f56f513638.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Web-HTTP.png"></p>
+<h2 id="JS功底"><a href="#JS功底" class="headerlink" title="JS功底"></a>JS功底</h2><p>基础语法，Js标准库，面向对象，Dom, JavaScript特效，ES6。</p>
+<h2 id="Node-js-基础"><a href="#Node-js-基础" class="headerlink" title="Node.js 基础"></a>Node.js 基础</h2><p>了解事件驱动、异步IO、单线程，核心模块和对象。</p>
+<h2 id="Web开发：Express-jade-ejs-ejs-mate-Mongoose-MySQL"><a href="#Web开发：Express-jade-ejs-ejs-mate-Mongoose-MySQL" class="headerlink" title="Web开发：Express + jade/ejs/ejs-mate  + Mongoose/MySQL"></a>Web开发：Express + jade/ejs/ejs-mate  + Mongoose/MySQL</h2><p>express 是轻量灵活的Nodejs Web应用框架，它可以快速地搭建网站。Express框架建立在Nodejs内置的Http模块上，并对Http模块再包装，从而实际Web请求处理的功能。</p>
+<p>Jade是一款高性能简洁易懂的模板引擎，Jade是Haml的Javascript实现，在服务端（NodeJS）及客户端均有支持。</p>
+<p>ejs是一个嵌入的Javascript模板引擎，通过编译生成HTML的代码。</p>
+<p>ejs-mate, 在ejs模板引擎的基础上增加了layout, partial 和 block 模板函数。</p>
+<p>mongoose 是MongoDB的对象模型工具，通过Mongoose框架，可以进行访问MongoDB的操作。</p>
+<p>mysql 是连接MySQL数据库的通信API，可以进行访问MySQL的操作。</p>
+<p>通常用Nodejs做Web开发，需要3个框架配合使用，就像Java中的SSH。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1996846-23fb17b358320cd2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="node+express+mongodb.jpg"></p>
+<h2 id="Node-js-常用库"><a href="#Node-js-常用库" class="headerlink" title="Node.js 常用库"></a>Node.js 常用库</h2><p>项目管理：npm, grunt, grunt,bower, yeoman</p>
+<p>Web开发：express,ejs,hexo, socket.io, restify, cleaver, stylus, browserify,cheerio</p>
+<p>工具包：underscore,moment,connet,later,log4js,passport,<br>passport(oAuth),domain,require,reap,comnder,retry,loader,csurf,compress,errorhander</p>
+<p>数据库：mysql, mongoose, redis</p>
+<p>异步：eventproxy, async, wind</p>
+<p>部署：forever, pm2</p>
+<p>测试：jasmine, karma, nodemon,  mocha，supertest, benchmark</p>
+<p>跨平台：rio,tty,chai</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下列列举一下我的技术栈，大体上符合我的路线，具体技术上有会的，也有不会。 列一下这个，主要是想，大家在学习的时候要有一个路线，清楚自己要学什么技术，什么是有用的。&lt;/p&gt;
+&lt;p&gt;大概列了一下，有些是不需要学的，以后再每个技术点去一点点更新。&lt;/p&gt;
+&lt;h2 id=&quot;Web基
+    
+    </summary>
+    
+      <category term="Node.js" scheme="http://www.taosilly.me/categories/Node-js/"/>
+    
+    
+      <category term="Node.js" scheme="http://www.taosilly.me/tags/Node-js/"/>
+    
+      <category term="技术栈" scheme="http://www.taosilly.me/tags/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
   </entry>
   
