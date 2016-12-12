@@ -38,13 +38,6 @@
 
     
     <entry>
-      <title><![CDATA[readme]]></title>
-      <url>%2Fpost%2Freadme%2F</url>
-      <content type="text"><![CDATA[2016年10月30日 创建Hexo博客, 用来写写生活，写写想法，写写技术。欢迎和我交流。]]></content>
-    </entry>
-
-    
-    <entry>
       <title><![CDATA[Hello World]]></title>
       <url>%2Fpost%2Fhello-world%2F</url>
       <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
