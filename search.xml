@@ -24,7 +24,7 @@
 
     
     <entry>
-      <title><![CDATA[node.js_skill_stack]]></title>
+      <title><![CDATA[Node.js 学习技术栈]]></title>
       <url>%2Fpost%2Fnodejs-skill-stack%2F</url>
       <content type="text"><![CDATA[下列列举一下我的技术栈，大体上符合我的路线，具体技术上有会的，也有不会。 列一下这个，主要是想，大家在学习的时候要有一个路线，清楚自己要学什么技术，什么是有用的。 大概列了一下，有些是不需要学的，以后再每个技术点去一点点更新。 Web基础web学习第一步，入门第一站，不管学习Node.js 还是其他语言，做网站这个是必学的，也是我们主要精力的投入点。 H5、CSS3、JS：基本标签认识，CSS属性熟悉并熟练使用，常见前端效果。 前端框架：Jquery, Bootstrap, Zepto.js, Vue.js, Angular.js, React.js. 自动化与构建: Git/SVN, NPM/Bower, Gulp. Web深入: 面向组件, 面向模块，HTTP协议. JS功底基础语法，Js标准库，面向对象，Dom, JavaScript特效，ES6。 Node.js 基础了解事件驱动、异步IO、单线程，核心模块和对象。 Web开发：Express + jade/ejs/ejs-mate + Mongoose/MySQLexpress 是轻量灵活的Nodejs Web应用框架，它可以快速地搭建网站。Express框架建立在Nodejs内置的Http模块上，并对Http模块再包装，从而实际Web请求处理的功能。 Jade是一款高性能简洁易懂的模板引擎，Jade是Haml的Javascript实现，在服务端（NodeJS）及客户端均有支持。 ejs是一个嵌入的Javascript模板引擎，通过编译生成HTML的代码。 ejs-mate, 在ejs模板引擎的基础上增加了layout, partial 和 block 模板函数。 mongoose 是MongoDB的对象模型工具，通过Mongoose框架，可以进行访问MongoDB的操作。 mysql 是连接MySQL数据库的通信API，可以进行访问MySQL的操作。 通常用Nodejs做Web开发，需要3个框架配合使用，就像Java中的SSH。 Node.js 常用库项目管理：npm, grunt, grunt,bower, yeoman Web开发：express,ejs,hexo, socket.io, restify, cleaver, stylus, browserify,cheerio 工具包：underscore,moment,connet,later,log4js,passport,passport(oAuth),domain,require,reap,comnder,retry,loader,csurf,compress,errorhander 数据库：mysql, mongoose, redis 异步：eventproxy, async, wind 部署：forever, pm2 测试：jasmine, karma, nodemon, mocha，supertest, benchmark 跨平台：rio,tty,chai]]></content>
     </entry>
